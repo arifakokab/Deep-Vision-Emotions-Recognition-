@@ -8,6 +8,7 @@ This project implements a Fine-Tuned MobileNetV2 model for emotion recognition u
 ---
 
 #### **Dataset**
+- **Link to Dataset:** https://www.kaggle.com/datasets/msambare/fer2013
 - **Name:** FER-2013 (Facial Expression Recognition 2013)
 - **Description:** Contains 35,887 grayscale facial images (48x48 pixels) divided into:
   - **Training Set:** 28,709 images
