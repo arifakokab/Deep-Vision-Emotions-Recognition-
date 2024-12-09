@@ -48,57 +48,6 @@ This project implements a Fine-Tuned MobileNetV2 model for emotion recognition u
 
 ---
 
-#### **How to Use**
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/<your-username>/fine-tuned-mobilenetv2-emotion-recognition.git
-   cd fine-tuned-mobilenetv2-emotion-recognition
-   ```
-
-2. **Install Dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Train the Model:**
-   Update dataset paths in the code and execute the training script:
-   ```bash
-   python train.py
-   ```
-
-4. **Evaluate the Model:**
-   Run the evaluation script to generate metrics:
-   ```bash
-   python evaluate.py
-   ```
-
-5. **Test on New Images:**
-   Use the inference script to test the model on new images:
-   ```bash
-   python inference.py --image_path <path_to_image>
-   ```
-
----
-
-#### **Project Structure**
-```plaintext
-|-- dataset/                    # FER-2013 Dataset (train/test)
-|-- models/                     # Saved models
-|   |-- mobilenetv2_fine_tuned_best.keras
-|-- src/                        # Source files
-|   |-- train.py                # Training script
-|   |-- evaluate.py             # Evaluation script
-|   |-- inference.py            # Inference script
-|-- results/                    # Performance metrics and visualizations
-|   |-- classification_report.txt
-|   |-- confusion_matrix.png
-|   |-- training_history.png
-|-- README.md                   # Project documentation
-|-- requirements.txt            # Python dependencies
-```
-
----
-
 #### **Results**
 - **Classification Report:** Precision, recall, and F1-score for all classes.
 - **Confusion Matrix:** Visualizes misclassifications across emotional categories.
@@ -110,11 +59,6 @@ This project implements a Fine-Tuned MobileNetV2 model for emotion recognition u
 - Transition to higher-quality datasets like AffectNet for improved resolution and diversity.
 - Experiment with advanced architectures such as Vision Transformers or hybrid models.
 - Address class imbalance using focal loss or synthetic data generation.
-
----
-
-#### **License**
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
